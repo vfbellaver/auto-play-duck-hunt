@@ -51,6 +51,9 @@ module.exports = {
     },
     port: 8080,
     open: true,
+    hot: true, // Habilita o hot reload
+    liveReload: true, // Garante que o navegador seja atualizado automaticamente
+    watchFiles: ['src/**/*', 'machine-learning/**/*'], // Monitora alterações em src e machine-learning
   },
   cache: {
     type: 'filesystem'

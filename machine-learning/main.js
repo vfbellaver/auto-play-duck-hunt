@@ -10,7 +10,7 @@ export default async function main(game) {
         const { type, x, y } = data;
 
         if (type === 'prediction') {
-            console.log(`🎯 AI predicted at: (${x}, ${y})`);
+            // console.log(`🎯 AI predicted at: (${x}, ${y})`);
             container.updateHUD(data);
             game.stage.aim.visible = true;
 
